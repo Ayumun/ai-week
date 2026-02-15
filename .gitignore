@@ -1,0 +1,8 @@
+.idea/
+thecreativeacademy.iml
+.DS_Store
+*.log
+.serena/
+.docs/
+.playwright-mcp/
+.mcp.json
