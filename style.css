@@ -200,7 +200,13 @@ input, textarea { font-family: inherit; }
 .post-add-comment .btn-post:disabled { color: #b2dffc; }
 
 /* ===== Explore ===== */
-.explore-container { max-width: 975px; margin: 0 auto; padding: 20px; }
+.explore-container {
+  max-width: 975px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fafafa;
+  min-height: calc(100vh - 110px);
+}
 .explore-grid {
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px;
 }
@@ -219,7 +225,13 @@ input, textarea { font-family: inherit; }
 .explore-overlay svg { width: 20px; height: 20px; fill: #fff; }
 
 /* ===== Profile ===== */
-.profile-container { max-width: 975px; margin: 0 auto; padding: 30px 20px; }
+.profile-container {
+  max-width: 975px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background: #fafafa;
+  min-height: calc(100vh - 110px);
+}
 .profile-header {
   display: flex; gap: 40px; margin-bottom: 44px; align-items: flex-start;
 }
