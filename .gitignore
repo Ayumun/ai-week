@@ -6,3 +6,13 @@ thecreativeacademy.iml
 .docs/
 .playwright-mcp/
 .mcp.json
+
+# Test artifacts
+test-results/
+modifications/
+docs/qa-tests/
+*.verification.png
+*-verification.png
+*-background.png
+*-boundary.png
+qa-evidence-*.png
