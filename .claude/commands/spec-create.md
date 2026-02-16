@@ -85,7 +85,7 @@ TodoWriteツールを使用して全体の進捗を可視化し、ユーザー�
    - base: デフォルトブランチ
    - head: `issue/{issue番号}`
    - title: `docs: {機能名} 仕様書`
-   - body: `Issue #{issue番号} の仕様書を作成しました。`
+   - body: `closes #{issue番号}\n\nIssue #{issue番号} の仕様書を作成しました。`
    - **PR URLを記録**
 
    d. **GitHub Issue説明文を更新（MCP）**
