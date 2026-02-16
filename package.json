@@ -1,0 +1,16 @@
+{
+  "name": "ai-week",
+  "private": true,
+  "scripts": {
+    "lint:js": "eslint app.js",
+    "lint:css": "stylelint style.css",
+    "lint": "npm run lint:js && npm run lint:css",
+    "prepush": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
