@@ -102,7 +102,7 @@ input, textarea { font-family: inherit; }
 /* ===== Content Area ===== */
 .content-area {
   margin-top: 60px; margin-bottom: 50px; flex: 1;
-  background: #D3D3D3;
+  background: #00bfff;
   min-height: calc(100vh - 60px);
 }
 @media (min-width: 769px) {
